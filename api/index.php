@@ -48,6 +48,7 @@
             <!-- Coluna para o conteúdo -->
             <div class="col mt-5">
                 <?php
+                phpinfo();
                 // Inclui o arquivo de configuração do banco de dados
                 include("config.php");
 
@@ -73,7 +74,7 @@
                         break;
                     default:
                         // Se não houver parâmetro 'page' na requisição, inclui a página inicial
-                        include("index.html");
+                        include("pagina.html");
                 }
                 ?>
             </div>
