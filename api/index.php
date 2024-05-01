@@ -73,7 +73,7 @@
                         break;
                     default:
                         // Se não houver parâmetro 'page' na requisição, inclui a página inicial
-                        include("index.html");
+                        include("pagina.html");
                 }
                 ?>
             </div>
