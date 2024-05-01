@@ -48,6 +48,7 @@
             <!-- Coluna para o conteúdo -->
             <div class="col mt-5">
                 <?php
+                phpinfo();
                 // Inclui o arquivo de configuração do banco de dados
                 include("config.php");
 
